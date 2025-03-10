@@ -8,6 +8,11 @@
 		".": "./lib/index.js",
 		"./*": "./lib/*.js"
 	},
+	"files": [
+		"lib/*.js",
+		"lib/*.d.ts",
+		"lib/*.js.map"
+	],
 	"scripts": {
 		"build": "tsc -b",
 		"watch": "tsc -b --watch",

@@ -1,5 +1,5 @@
 # Changelog
 
-## v0.1.0 (future)
+## v0.1.0 (2025-03-10)
 
 Initial release.
