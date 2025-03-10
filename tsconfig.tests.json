@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"rootDir": "source",
+		"outDir": "lib",
+		"strict": true,
+		"target": "ESNext",
+		"module": "CommonJS",
+		"esModuleInterop": true,
+		"noEmit": true,
+		"noEmitOnError": true,
+		"tsBuildInfoFile": "tsbuildinfo/tests.tsbuildinfo",
+		"types": [
+			"sprintest"
+		]
+	},
+	"include": [
+		"source/**/*.test.ts",
+	],
+	"references": [
+		{
+			"path": "./tsconfig.source.json"
+		}
+	]
+}

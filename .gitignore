@@ -1,0 +1,11 @@
+# Editor ignores
+.vscode
+
+# Node ignores
+node_modules
+
+# TypeScript ignores
+tsbuildinfo
+
+# Project ignores
+lib

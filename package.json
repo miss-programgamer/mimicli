@@ -1,0 +1,24 @@
+{
+	"name": "mimicli",
+	"displayName": "MimiCLI",
+	"description": "A type-enhanced and dependency-free CLI creation library.",
+	"version": "0.1.0",
+	"type": "module",
+	"exports": {
+		".": "./lib/index.js",
+		"./*": "./lib/*.js"
+	},
+	"scripts": {
+		"build": "tsc -b",
+		"watch": "tsc -b --watch",
+		"clean": "tsc -b --clean",
+		"test": "sprintest"
+	},
+	"devDependencies": {
+		"@types/chai": "^5.0.1",
+		"@types/node": "^22.13.8",
+		"chai": "^5.2.0",
+		"sprintest": "^0.1.1",
+		"typescript": "^5.8.2"
+	}
+}
