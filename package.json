@@ -3,6 +3,15 @@
 	"displayName": "MimiCLI",
 	"description": "A type-enhanced and dependency-free CLI creation library.",
 	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/miss-programgamer/mimicli.git"
+	},
+	"keywords": [
+		"cli",
+		"args",
+		"parser"
+	],
 	"type": "module",
 	"exports": {
 		".": "./lib/index.js",
@@ -17,7 +26,8 @@
 		"build": "tsc -b",
 		"watch": "tsc -b --watch",
 		"clean": "tsc -b --clean",
-		"test": "sprintest"
+		"test": "sprintest",
+		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"devDependencies": {
 		"@types/chai": "^5.0.1",
